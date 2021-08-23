@@ -7,6 +7,7 @@ const CONNECTION_URL =process.env.CONNECTION_URL;
 
 /* GET users listing. */
 router.get('/', function(req, res, next) {
+  //res.download('../file.pdf')
   res.send('respond with a resource');
 });
 router.get('/id', function(req, res, next) {
